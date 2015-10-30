@@ -1,0 +1,27 @@
+// This repository references base-sass.css. To make it as straightforward as possible to integrate these styles into
+// our exising SASS includes, please therefore:
+//  - Ensure any NEW styles for the prototype are included in prototype-styles.scss
+//  - Ensure any OVERRIDES to base-sass.css are included in prototype-overrides.scss
+html {
+  line-height: 0;
+}
+h1 {
+  color: #fff;
+  margin: 0;
+  padding: 0.3em;
+  text-align: center;
+}
+h1 span {
+  color: #666;
+  margin: auto;
+  padding: 0 0.2em;
+}
+img {
+  margin: 0;
+}
+ul.tabs {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}

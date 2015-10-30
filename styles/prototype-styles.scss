@@ -1,0 +1,28 @@
+// This repository references base-sass.css. To make it as straightforward as possible to integrate these styles into
+// our exising SASS includes, please therefore:
+//  - Ensure any NEW styles for the prototype are included in prototype-styles.scss
+//  - Ensure any OVERRIDES to base-sass.css are included in prototype-overrides.scss
+
+.heading-container {
+  width: 100%;
+  background-color: #000;
+  margin: 0;
+}
+.tab-container {
+  width: 100%;
+  background-color: #fff;
+}
+
+ul.tabs li {
+  display: inline-block;
+  margin: 1em 0.4em;
+  font-size: 1.4em;
+}
+
+.center {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+#Countries .st2  {
+  fill: #fff;
+}

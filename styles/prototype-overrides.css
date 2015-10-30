@@ -1,0 +1,80 @@
+html {
+    line-height: 0;
+}
+
+h1 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+67&amp;0+0,0.65+67 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 67%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(67%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 67%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 67%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 67%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 67%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+    margin: 0.1em 0 0;
+    padding: 0.3em 0 0.5em;
+    text-align: center;
+}
+
+h1 span {
+    color: #666;
+    margin: auto;
+    padding: 0 0.2em;
+}
+
+img {
+    margin: 0;
+}
+#logo {
+    margin-bottom: 10px;
+}
+ul.utilities {
+    background-color: transparent;
+    width: 100%;
+    text-align: right;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+ul.utilities li a {
+    color: #fff;
+    font-size: 0.65em;
+    margin: 0 0.4em;
+}
+
+h3.icon {
+    font-family: 'Open sans', serif;
+    background: url('../images/100-icon.svg') no-repeat 0px;
+    -webkit-background-size: 40px;
+    background-size: 40px;
+    display: inline-block;
+    height: 50px;
+    padding: 15px 0 0 60px !important;
+    margin: 0 auto 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+h3 {
+    font-family: 'Bitter', serif !important;
+    font-size: 1.5em;
+}
+.col {
+    margin-left: 0 !important;
+}
+#breadcrumb {
+    margin-bottom: 20px !important;
+    color: #666;
+}
+#breadcrumb a {
+    color: #666;
+    text-decoration: underline;
+}
+/*# sourceMappingURL=prototype-overrides.css.map */
