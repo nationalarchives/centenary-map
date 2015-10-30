@@ -16,8 +16,9 @@ $(window).resize(function () {
 $(window).load(function () {
     $(".country")
         .on("mouseenter", function () {
-            var a = $(this).attr("title");
-            var tooltip = "<div class='tooltip'>" + a + "</div>";
+            var title = $(this).attr("title");
+            var link = $(this).attr("xlink:href");
+            var tooltip = "<div class='tooltip'><a href='" + link + "' title='" + title + "'>" + title + "</a></div>";
             $(".map-container").append(tooltip);
 
         })
