@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <?php include 'includes/head.php'; ?>
-
 <body>
 <?php include 'includes/header.php'; ?>
 <main role="main">
@@ -16,14 +15,11 @@
             <img src="images/1914_Germany.svg" alt="1914 Germany map">
         </div>
     </div>
-
     <div class="row box">
         <div class="container center">
             <?php include 'includes/breadcrumb.php'; ?>
         </div>
     </div>
-
-
     <div class="row">
         <div class="container center margin-top-large">
             <div class="col starts-at-full ends-at-one-third">
@@ -38,6 +34,7 @@
             <div class="col starts-at-full ends-at-two-thirds">
                 <div class="tabs" role="tabpanel" aria-labelledby="panel-1">
                     <h2>Overview</h2>
+
                     <p> Situated in Central Europe, the German Empire was one of the Central Powers in the First World
                         War.
                         The Empire had been established in 1871 following the unification of the German states under
@@ -98,14 +95,12 @@
             </div>
         </div>
     </div>
-
 </main>
 <a id="goTop"></a>
-
 <?php include 'includes/footer.php'; ?>
 <?php include 'includes/footer-scripts.php'; ?>
 <script>
-$("ul[role='tablist'] li").tabify();
+    $("ul[role='tablist'] li").tabify();
 </script>
 </body>
 </html>

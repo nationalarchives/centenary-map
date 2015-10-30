@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <?php include 'includes/head.php'; ?>
-
 <body>
 <?php include 'includes/header.php'; ?>
 <main role="main">
@@ -19,17 +18,17 @@
             <img src="images/1914_Europe_Map.svg" alt="1914 Europe map">
         </div>
     </div>
-
     <div class="row box">
         <div class="container center">
             <?php include 'includes/breadcrumb.php'; ?>
         </div>
     </div>
     <div class="container center margin-top-large">
-
         <div class="row">
             <div class="col starts-at-full">
-                <a id="countries"></a><h2 class="margin-top-large">European countries/territories</h2></a>
+                <a id="countries"></a>
+
+                <h2 class="margin-top-large">European countries/territories</h2></a>
                 <div id="desktop-keywords">
                     <ul class="no-bullet border-none keywords-selectable clr">
                         <li><a href="">Albania</a></li>
@@ -55,12 +54,9 @@
             </div>
         </div>
     </div>
-
 </main>
 <a id="goTop"></a>
-
 <?php include 'includes/footer.php'; ?>
 <?php include 'includes/footer-scripts.php'; ?>
-
 </body>
 </html>

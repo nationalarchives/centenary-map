@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <?php include 'includes/head.php'; ?>
-
 <body>
 <?php include 'includes/header.php'; ?>
 <main role="main">
@@ -14,8 +13,8 @@
         </div>
         <div class="map-container">
             <ul class="utilities">
-                <li><a href="#countries">Countries/territories</a></li>
-                <li><a href="#about">About this map</a></li>
+                <li><a href="#countries" id="countries-link">Countries/territories</a></li>
+                <li><a href="#about" id="about-link">About this map</a></li>
             </ul>
             <ul class="buttons">
                 <li><a href="" title="tooltip">Show 1914 empires</a></li>
@@ -24,64 +23,70 @@
         </div>
     </div>
     <div class="container center">
-        <a id="countries"><h2 class="icon margin-top-large">Countries/territories</h2></a>
+        <a id="countries"></a><h2 class="icon margin-top-large">Countries/territories</h2>
 
         <div class="index row">
             <div class="col starts-at-full ends-at-one-third">
                 <h3 class="icon"><a href="region.php">Europe</a></h3>
-                <ul class="no-bullet">
+                <ul class="no-bullet margin-none">
                     <li><a href="">Albania</a></li>
                     <li><a href="">Austria-Hungary</a></li>
                     <li><a href="">Belgium</a></li>
                 </ul>
+                <p class="caption"><a href="">Show all &#x25B8</a></p>
             </div>
             <div class="col starts-at-full ends-at-one-third">
                 <h3 class="icon"><a href="">Asia</a></h3>
-                <ul class="no-bullet">
+                <ul class="no-bullet margin-none">
                     <li><a href="">Burma</a></li>
                     <li><a href="">Ceylon</a></li>
                     <li><a href="">India</a></li>
                 </ul>
+                <p class="caption"><a href="">Show all &#x25B8</a></p>
             </div>
             <div class="col starts-at-full ends-at-one-third">
                 <h3 class="icon"><a href="">Australasia</a></h3>
-                <ul class="no-bullet">
+                <ul class="no-bullet margin-none">
                     <li><a href="">Australia</a></li>
                     <li><a href="">Cocos (Keeling) Islands</a></li>
                     <li><a href="">New Zealand</a></li>
                 </ul>
+                <p class="caption"><a href="">Show all &#x25B8</a></p>
             </div>
         </div>
         <div class="index row">
             <div class="col starts-at-full ends-at-one-third">
                 <h3 class="icon"><a href="">Africa</a></h3>
-                <ul class="no-bullet">
+                <ul class="no-bullet margin-none">
                     <li><a href="">Anglo-Egyptian Sudan</a></li>
                     <li><a href="">British East Africa</a></li>
                     <li><a href="">British Gold Coast</a></li>
                 </ul>
+                <p class="caption"><a href="">Show all &#x25B8</a></p>
             </div>
             <div class="col starts-at-full ends-at-one-third">
                 <h3 class="icon"><a href="">Middle East</a></h3>
-                <ul class="no-bullet">
+                <ul class="no-bullet margin-none">
                     <li><a href="">Aden</a></li>
                     <li><a href="">Old country name</a></li>
                     <li><a href="">Old country name</a></li>
                 </ul>
+                <p class="caption"><a href="">Show all &#x25B8</a></p>
             </div>
             <div class="col starts-at-full ends-at-one-third">
                 <h3 class="icon"><a href="">Americas</a></h3>
-                <ul class="no-bullet">
+                <ul class="no-bullet margin-none">
                     <li><a href="">Barbados</a></li>
                     <li><a href="">Bermuda</a></li>
                     <li><a href="">Canada</a></li>
                 </ul>
+                <p class="caption"><a href="">Show all &#x25B8</a></p>
             </div>
         </div>
     </div>
     <div class="row box">
         <div class="center breather">
-            <a id="about"><h2 class="icon">About this map</h2></a>
+            <a id="about"></a><h2 class="icon">About this map</h2>
 
             <p>Explore the global impact of the First World War through our interactive map, which highlights key events
                 and figures in countries from Aden to Zanzibar. Drawn directly from our records at The National
@@ -108,12 +113,9 @@
             <p>To find out more about the map, please read our blog post.</p>
         </div>
     </div>
-
 </main>
 <a id="goTop"></a>
-
 <?php include 'includes/footer.php'; ?>
 <?php include 'includes/footer-scripts.php'; ?>
-
 </body>
 </html>
