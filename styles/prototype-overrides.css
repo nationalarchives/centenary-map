@@ -60,20 +60,23 @@ ul.utilities li a {
   margin: 0 0.4em;
 }
 
-h3.icon {
-  font-family: 'Open sans', serif;
+.width-full {
+  text-align: center;
+}
+
+h2.icon {
   background: url("../images/100-icon.svg") no-repeat 0px;
   -webkit-background-size: 40px;
   background-size: 40px;
   display: inline-block;
-  height: 50px;
-  padding: 15px 0 0 60px !important;
-  margin: 0 auto 20px;
-  font-size: 1.2em;
+  text-align: center;
+  height: 40px;
+  padding: 0px 0 0 60px !important;
+  margin: 20px auto 50px;
 }
 @media only screen and (min-width: 768px) {
-  h3.icon {
-    font-size: 1.5em;
+  h2.icon {
+    font-size: 2em;
   }
 }
 
@@ -108,7 +111,6 @@ h3 {
 
 .caption {
   margin-top: 0;
-  border-top: 1px solid #ddd;
   font-size: 0.75em;
 }
 
@@ -116,6 +118,17 @@ h3 {
   color: #666 !important;
   display: block;
   margin-top: 0.5em;
+  text-align: center;
+}
+
+ul.no-bullet li {
+  border: 0;
+  background: #fff;
+  margin-bottom: 0.5em;
+  padding: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
 }
 
 /*# sourceMappingURL=prototype-overrides.css.map */

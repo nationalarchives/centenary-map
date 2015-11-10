@@ -1,7 +1,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 570 333.15" style="enable-background:new 0 0 570 333.15;" xml:space="preserve">
+     viewBox="0 0 570 333.15" xml:space="preserve" width="100%" height="100%" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 58.5%; height: 1px; overflow: visible; box-sizing: content-box; enable-background:new 0 0 381.1 381.1;">
 <g id="Background">
-    <rect x="-29" class="st0" width="612" height="333.15"/>
+    <rect x="-29" class="st0" width="612" height="333.15" />
 </g>
     <g id="Countries">
         <path class="st1" d="M506.38,188.93l-0.29,0.24l0.24,0.46l-0.01-0.33l0.16-0.2L506.38,188.93L506.38,188.93z M505.51,191.15

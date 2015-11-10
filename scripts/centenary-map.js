@@ -48,3 +48,11 @@ $("#about-link").click(function(e) {
         scrollTop: $('#about').offset().top
     }, 1200);
 });
+
+var country = "Germany";
+
+$(document).ready(function(){
+if($('.country').attr('title') == country) {
+    $('.country').addClass('selected');
+};
+});

@@ -11,11 +11,13 @@
             </div>
             <h1>Europe in 1914</h1>
         </div>
-        <div class="map-container">
+        <div class="map-container" style="padding-bottom: 32%; position relative;">
             <ul class="utilities">
                 <li><a href="#countries">Countries/territories</a></li>
             </ul>
-            <img src="images/1914_Europe_Map.svg" alt="1914 Europe map">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="170 70 300 333.15" xml:space="preserve" width="100%" height="100%" preserveAspectRatio="xMidYMin slice" style="position: absolute;">
+            <?php include 'includes/1914-map-mono.php'; ?>
         </div>
     </div>
     <div class="row box">
@@ -23,12 +25,13 @@
             <?php include 'includes/breadcrumb.php'; ?>
         </div>
     </div>
-    <div class="container center margin-top-large">
+    <div class="container">
+        <div class="center breather">
         <div class="row">
             <div class="col starts-at-full">
-                <a id="countries"></a>
 
-                <h2 class="margin-top-large">European countries/territories</h2></a>
+
+                <div class="width-full"><a id="countries"></a><h2 class="icon">European countries/territories</h2></a></div>
                 <div id="desktop-keywords">
                     <ul class="no-bullet border-none keywords-selectable clr">
                         <li><a href="">Albania</a></li>
@@ -53,6 +56,7 @@
                 </div>
             </div>
         </div>
+            </div>
     </div>
 </main>
 <a id="goTop"></a>

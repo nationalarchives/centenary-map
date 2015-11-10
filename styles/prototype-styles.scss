@@ -28,6 +28,10 @@
   z-index: 1000;
 }
 
+.map-container svg {
+  width: 100%;
+}
+
 .tab-container {
   width: 100%;
   background-color: #fff;
@@ -105,12 +109,21 @@ ul.buttons li a {
 .keywords-selectable li a {
   padding: 10px 0;
   display: inline-block;
+  margin-left: 10px;
 }
 
 .tabs h2 {
   text-align: left;
   margin-top: 0;
   width: 100%;
+}
+
+li.selected a, li.selected a:hover {
+  color: #222;
+}
+
+li.selected, li.selected a:hover, li.selected a:focus {
+  text-decoration: none !important;
 }
 
 /* Map colors and styling */
@@ -166,7 +179,7 @@ ul.buttons li a {
   fill: #032933;
 }
 
-.st1:hover {
+.st1:hover, .selected {
   fill: #032933;
 }
 
@@ -195,6 +208,53 @@ ul.buttons li a {
 
 .tooltip a {
   color: #fff;
+}
+
+.tabs > h2 {
+  margin-bottom: 15px;
+}
+
+.tabs > h2 + img {
+  width: 100%;
+  margin: 0 0 20px;
+}
+
+.image-list-container {
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-bottom: 2px solid #ddd;
+}
+
+.image-list-container > .image {
+   background-image: url('http://www.nationalarchives.gov.uk/wp-content/themes/tna/images/centenary-map/tna-centenary-map-key-figures-placeholder.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+  margin-right: 3%;
+  border: 5px solid #fff;
+  margin-bottom: 1em;
+  @media only screen and (min-width: 768px) {
+    width: 18%;
+    float: left;
+    margin-bottom: 0;
+  }
+ }
+
+.image-list-container > .image > img {
+  width: 100%;
+}
+
+.image-list-container > .description {
+  float: left;
+  @media only screen and (min-width: 768px) {
+    width: 59%;
+  }
+  text-align: left;
+  padding-left: 5px;
+}
+
+.image-list-container > .description > .caption a {
+  text-align: left;
 }
 
 #desktop-keywords {

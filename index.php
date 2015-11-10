@@ -13,17 +13,18 @@
         </div>
         <div class="map-container">
             <ul class="utilities">
-                <li><a href="#countries" id="countries-link">Countries/territories</a></li>
+                <li><a href="#countries" id="countries-link">Regions</a></li>
                 <li><a href="#about" id="about-link">About this map</a></li>
             </ul>
             <ul class="buttons">
                 <li><a href="" title="tooltip">Show 1914 empires</a></li>
             </ul>
-            <?php include 'includes/1914-map.php'; ?>
+            <?php include 'includes/continent-map.php'; ?>
         </div>
     </div>
-    <div class="container center">
-        <a id="countries"></a><h2 class="icon margin-top-large">Countries/territories</h2>
+    <div class="container">
+        <div class="center breather">
+        <div class="width-full"><a id="countries"></a><h2 class="icon">Regions</h2></a></div>
 
         <div class="index row">
             <div class="col starts-at-full ends-at-one-third">
@@ -83,10 +84,11 @@
                 <p class="caption"><a href="">Show all &#x25B8</a></p>
             </div>
         </div>
+            </div>
     </div>
     <div class="row box">
         <div class="center breather">
-            <a id="about"></a><h2 class="icon">About this map</h2>
+            <div class="width-full"><a id="about"></a><h2 class="icon">About this map</h2></div>
 
             <p>Explore the global impact of the First World War through our interactive map, which highlights key events
                 and figures in countries from Aden to Zanzibar. Drawn directly from our records at The National
