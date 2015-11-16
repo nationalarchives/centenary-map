@@ -7,7 +7,7 @@
     <div class="navigation-container">
         <div class="heading-container">
             <div class="logo-holder">
-                <img src="images/100-logo.svg" alt="First World War 100" width="100%">
+                <img src="images/100-logo.svg" alt="First World War 100">
             </div>
             <h1>First World War: A global view</h1>
         </div>
@@ -24,72 +24,74 @@
     </div>
     <div class="container">
         <div class="center breather">
-        <div class="width-full"><a id="countries"></a><h2 class="icon">Regions</h2></a></div>
+            <div class="width-full"><a id="countries"></a>
 
-        <div class="index row">
-            <div class="col starts-at-full ends-at-one-third">
-                <h3 class="icon"><a href="region.php">Europe</a></h3>
-                <ul class="no-bullet margin-none">
-                    <li><a href="">Albania</a></li>
-                    <li><a href="">Austria-Hungary</a></li>
-                    <li><a href="">Belgium</a></li>
-                </ul>
-                <p class="caption"><a href="">Show all &#x25B8</a></p>
+                <h2 class="icon">Regions</h2></div>
+            <div class="index row">
+                <div class="col starts-at-full ends-at-one-third">
+                    <h3 class="icon"><a href="region.php">Europe</a></h3>
+                    <ul class="no-bullet margin-none">
+                        <li><a href="">Albania</a></li>
+                        <li><a href="">Austria-Hungary</a></li>
+                        <li><a href="">Belgium</a></li>
+                    </ul>
+                    <p class="caption"><a href="">Show all &#x25B8;</a></p>
+                </div>
+                <div class="col starts-at-full ends-at-one-third">
+                    <h3 class="icon"><a href="">Asia</a></h3>
+                    <ul class="no-bullet margin-none">
+                        <li><a href="">Burma</a></li>
+                        <li><a href="">Ceylon</a></li>
+                        <li><a href="">India</a></li>
+                    </ul>
+                    <p class="caption"><a href="">Show all &#x25B8;</a></p>
+                </div>
+                <div class="col starts-at-full ends-at-one-third">
+                    <h3 class="icon"><a href="">Australasia</a></h3>
+                    <ul class="no-bullet margin-none">
+                        <li><a href="">Australia</a></li>
+                        <li><a href="">Cocos (Keeling) Islands</a></li>
+                        <li><a href="">New Zealand</a></li>
+                    </ul>
+                    <p class="caption"><a href="">Show all &#x25B8;</a></p>
+                </div>
             </div>
-            <div class="col starts-at-full ends-at-one-third">
-                <h3 class="icon"><a href="">Asia</a></h3>
-                <ul class="no-bullet margin-none">
-                    <li><a href="">Burma</a></li>
-                    <li><a href="">Ceylon</a></li>
-                    <li><a href="">India</a></li>
-                </ul>
-                <p class="caption"><a href="">Show all &#x25B8</a></p>
-            </div>
-            <div class="col starts-at-full ends-at-one-third">
-                <h3 class="icon"><a href="">Australasia</a></h3>
-                <ul class="no-bullet margin-none">
-                    <li><a href="">Australia</a></li>
-                    <li><a href="">Cocos (Keeling) Islands</a></li>
-                    <li><a href="">New Zealand</a></li>
-                </ul>
-                <p class="caption"><a href="">Show all &#x25B8</a></p>
+            <div class="index row">
+                <div class="col starts-at-full ends-at-one-third">
+                    <h3 class="icon"><a href="">Africa</a></h3>
+                    <ul class="no-bullet margin-none">
+                        <li><a href="">Anglo-Egyptian Sudan</a></li>
+                        <li><a href="">British East Africa</a></li>
+                        <li><a href="">British Gold Coast</a></li>
+                    </ul>
+                    <p class="caption"><a href="">Show all &#x25B8;</a></p>
+                </div>
+                <div class="col starts-at-full ends-at-one-third">
+                    <h3 class="icon"><a href="">Middle East</a></h3>
+                    <ul class="no-bullet margin-none">
+                        <li><a href="">Aden</a></li>
+                        <li><a href="">Old country name</a></li>
+                        <li><a href="">Old country name</a></li>
+                    </ul>
+                    <p class="caption"><a href="">Show all &#x25B8;</a></p>
+                </div>
+                <div class="col starts-at-full ends-at-one-third">
+                    <h3 class="icon"><a href="">Americas</a></h3>
+                    <ul class="no-bullet margin-none">
+                        <li><a href="">Barbados</a></li>
+                        <li><a href="">Bermuda</a></li>
+                        <li><a href="">Canada</a></li>
+                    </ul>
+                    <p class="caption"><a href="">Show all &#x25B8;</a></p>
+                </div>
             </div>
         </div>
-        <div class="index row">
-            <div class="col starts-at-full ends-at-one-third">
-                <h3 class="icon"><a href="">Africa</a></h3>
-                <ul class="no-bullet margin-none">
-                    <li><a href="">Anglo-Egyptian Sudan</a></li>
-                    <li><a href="">British East Africa</a></li>
-                    <li><a href="">British Gold Coast</a></li>
-                </ul>
-                <p class="caption"><a href="">Show all &#x25B8</a></p>
-            </div>
-            <div class="col starts-at-full ends-at-one-third">
-                <h3 class="icon"><a href="">Middle East</a></h3>
-                <ul class="no-bullet margin-none">
-                    <li><a href="">Aden</a></li>
-                    <li><a href="">Old country name</a></li>
-                    <li><a href="">Old country name</a></li>
-                </ul>
-                <p class="caption"><a href="">Show all &#x25B8</a></p>
-            </div>
-            <div class="col starts-at-full ends-at-one-third">
-                <h3 class="icon"><a href="">Americas</a></h3>
-                <ul class="no-bullet margin-none">
-                    <li><a href="">Barbados</a></li>
-                    <li><a href="">Bermuda</a></li>
-                    <li><a href="">Canada</a></li>
-                </ul>
-                <p class="caption"><a href="">Show all &#x25B8</a></p>
-            </div>
-        </div>
-            </div>
     </div>
     <div class="row box">
         <div class="center breather">
-            <div class="width-full"><a id="about"></a><h2 class="icon">About this map</h2></div>
+            <div class="width-full"><a id="about"></a>
 
+                <h2 class="icon">About this map</h2></div>
             <p>Explore the global impact of the First World War through our interactive map, which highlights key events
                 and figures in countries from Aden to Zanzibar. Drawn directly from our records at The National
                 Archives, the map aims to go beyond the trenches of the Western Front and shows how the war affected

@@ -1,4 +1,3 @@
-
 // Activate equal heights
 $('#index').fadeIn('slow');
 
@@ -16,7 +15,7 @@ $(window).resize(function () {
 $(window).load(function () {
     $(".country")
         .on("mouseenter", function () {
-            var title = $(this).attr("title");
+            var title = $(this).attr("xlink:title");
             var link = $(this).attr("xlink:href");
             var tooltip = "<div class='tooltip'><a href='" + link + "' title='" + title + "'>" + title + "</a></div>";
             $(".map-container").append(tooltip);
@@ -31,7 +30,7 @@ $(window).load(function () {
 
 // Scroll to anchor link
 
-$("#countries-link").click(function(e) {
+$("#countries-link").click(function (e) {
     e.preventDefault();
 
     // Scroll to step-two container
@@ -40,7 +39,7 @@ $("#countries-link").click(function(e) {
     }, 1200);
 });
 
-$("#about-link").click(function(e) {
+$("#about-link").click(function (e) {
     e.preventDefault();
 
     // Scroll to step-two container
@@ -51,10 +50,12 @@ $("#about-link").click(function(e) {
 
 // Set the on-state of the country
 
-var country;
+var country = '';
 
-if(country !== 'undefined') {
-    if ($('#' + country + '').attr('title') == country) {
+if (country !== '') {
+    if ($('#' + country + '').attr('xlink:title') == country) {
         $('#' + country + '').attr('id', 'selected');
-    };
-};
+    }
+    ;
+}
+;

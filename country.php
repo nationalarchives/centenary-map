@@ -7,11 +7,10 @@
     <div class="navigation-container">
         <div class="heading-container">
             <div class="logo-holder">
-                <img src="images/100-logo.svg" alt="First World War 100" width="100%">
+                <img src="images/100-logo.svg" alt="First World War 100">
             </div>
             <?php
             $country = "Germany";
-
             function getCoordinates($country)
             {
                 switch ($country) {
@@ -27,7 +26,6 @@
             <h1><?php echo($country) ?> in 1914</h1>
         </div>
         <div class="map-container" style="padding-bottom: 32%; position relative;">
-
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                  y="0px"
                  viewBox="<?php getCoordinates($country); ?>" xml:space="preserve" width="100%" height="100%"
@@ -36,9 +34,8 @@
                     .st4 {
                         stroke-width: 0.15 !important;
                     }
-
-                 </style>
-            <?php include 'includes/1914-map-mono.php'; ?>
+                </style>
+                <?php include 'includes/1914-map-mono.php'; ?>
         </div>
     </div>
     <div class="row box">
