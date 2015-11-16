@@ -49,10 +49,12 @@ $("#about-link").click(function(e) {
     }, 1200);
 });
 
-var country = "Germany";
+// Set the on-state of the country
 
-$(document).ready(function(){
-if($('.country').attr('title') == country) {
-    $('.country').addClass('selected');
+var country;
+
+if(country !== 'undefined') {
+    if ($('#' + country + '').attr('title') == country) {
+        $('#' + country + '').attr('id', 'selected');
+    };
 };
-});

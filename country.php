@@ -23,7 +23,6 @@
                 }
             }
 
-
             ?>
             <h1><?php echo($country) ?> in 1914</h1>
         </div>
@@ -159,6 +158,9 @@
 </main>
 <a id="goTop"></a>
 <?php include 'includes/footer.php'; ?>
+<script>
+    var country = "Germany";
+</script>
 <?php include 'includes/footer-scripts.php'; ?>
 <script>
     $("ul[role='tablist'] li").tabify();

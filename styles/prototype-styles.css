@@ -181,12 +181,16 @@ li.selected, li.selected a:hover, li.selected a:focus {
   fill: #046D89;
 }
 
-.st1:hover, .st5:hover, .st3:hover {
+a .st1:hover, a .st5:hover, a .st3:hover {
   fill: #032933;
 }
 
-.st1:hover, .selected {
+a .st1:hover {
   fill: #032933;
+}
+
+a#selected polygon {
+  fill: #111;
 }
 
 .tooltip {
