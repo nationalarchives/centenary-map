@@ -115,13 +115,11 @@ h3 {
 }
 
 ul.no-bullet li {
-  border: 0;
   background: #fff;
-  margin-bottom: 0.5em;
   padding: 10px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
+  margin: 0;
+  border-top: 8px solid #efefef;
+  border-bottom: 0 !important;
 }
 
 /*# sourceMappingURL=prototype-overrides.css.map */

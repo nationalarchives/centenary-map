@@ -13,7 +13,7 @@
         </div>
         <div class="map-container" style="padding-bottom: 32%; position relative;">
             <ul class="utilities">
-                <li><a href="#countries">Countries/territories</a></li>
+                <li><a href="#countries" id="countries-link">Countries/territories</a></li>
             </ul>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                  y="0px"

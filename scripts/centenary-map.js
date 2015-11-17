@@ -50,8 +50,6 @@ $("#about-link").click(function (e) {
 
 // Set the on-state of the country
 
-var country = '';
-
 if (country !== '') {
     if ($('#' + country + '').attr('xlink:title') == country) {
         $('#' + country + '').attr('id', 'selected');

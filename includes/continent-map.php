@@ -1696,7 +1696,7 @@
         <path class="st1" d="M236.72,149.69l0.22,0.16l0.01-0.12l-0.15-0.09L236.72,149.69L236.72,149.69z M235.37,149.69l0.28,0.2
 		l-0.09-0.17L235.37,149.69L235.37,149.69z M234.81,149.97l0.03,0.3l0.32,0.02l0.18-0.04l-0.28-0.26L234.81,149.97L234.81,149.97z
 		 M239.11,151.4l-0.28,0.08l0.05,0.14l0.4,0.07l0.12-0.09l-0.11-0.15L239.11,151.4z"/>
-        <a class="country" xlink:title="Middle East " xlink:href="middle-east">
+        <a class="country" xlink:title="Middle East" xlink:href="middle-east">
             <g>
                 <polygon class="st2" points="351.7,167.48 351.81,167.42 351.58,167.33 			"/>
                 <polygon class="st2" points="344.15,187.81 344.15,187.81 344.15,187.81 			"/>

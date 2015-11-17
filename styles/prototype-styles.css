@@ -51,6 +51,7 @@ ul.utilities {
 @media only screen and (min-width: 768px) {
   ul.utilities {
     display: block;
+    z-index: 100;
   }
 }
 
@@ -107,7 +108,7 @@ ul.buttons li a {
 }
 
 .keywords-selectable li {
-  border-top: 1px solid #dfdfdf;
+  border-top: 10px solid #efefef;
   border-bottom: 0 !important;
   padding: 0 !important;
 }

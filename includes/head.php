@@ -18,6 +18,7 @@
     <![endif]-->
     <!--[if IE 8]>
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/tna/css/ie8.css">
+    <link rel="stylesheet" type="text/css" href="styles/ie8-map.css">
     <![endif]-->
     <!--[if IE 9]>
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/tna/css/ie9.css">

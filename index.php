@@ -120,6 +120,9 @@
 </main>
 <a id="goTop"></a>
 <?php include 'includes/footer.php'; ?>
+<script>
+    var country = '';
+</script>
 <?php include 'includes/footer-scripts.php'; ?>
 </body>
 </html>

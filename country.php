@@ -156,6 +156,7 @@
 <a id="goTop"></a>
 <?php include 'includes/footer.php'; ?>
 <script>
+    var country = '';
     var country = "Germany";
 </script>
 <?php include 'includes/footer-scripts.php'; ?>
