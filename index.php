@@ -7,7 +7,7 @@
     <div class="navigation-container">
         <div class="heading-container">
             <div class="logo-holder">
-                <img src="images/100-logo.svg" alt="First World War 100">
+                <img src="images/100-logo.png" alt="First World War 100">
             </div>
             <h1>First World War: A global view</h1>
         </div>

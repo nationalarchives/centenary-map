@@ -7,7 +7,7 @@
     <div class="navigation-container">
         <div class="heading-container">
             <div class="logo-holder">
-                <img src="images/100-logo.svg" alt="First World War 100">
+                <img src="images/100-logo.png" alt="First World War 100">
             </div>
             <?php
             $country = "Germany";
@@ -45,7 +45,7 @@
     </div>
     <div class="row">
         <div class="container center margin-top-large">
-            <div class="col starts-at-full ends-at-one-third">
+            <div class="col starts-at-full ends-at-one-third full-override">
                 <ul class="no-bullet" role="tablist">
                     <li id="panel-1" role="tab"><a href="">Overview</a></li>
                     <li id="panel-2" role="tab"><a href="">Prelude to war</a></li>

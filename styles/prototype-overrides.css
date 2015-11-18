@@ -65,9 +65,10 @@ ul.utilities li a {
 }
 
 h2.icon {
-  background: url("../images/100-icon.svg") no-repeat 0px;
-  -webkit-background-size: 40px;
-  background-size: 40px;
+  background: url("../images/100-icon.png") no-repeat;
+  background-position: 0px 3px;
+  -webkit-background-size: 55px;
+  background-size: 55px;
   display: inline-block;
   text-align: center;
   height: 40px;
@@ -127,6 +128,15 @@ ul.no-bullet li {
   margin: 0;
   border-top: 8px solid #efefef;
   border-bottom: 0 !important;
+}
+
+.full-override {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .full-override {
+    width: 32%;
+  }
 }
 
 /*# sourceMappingURL=prototype-overrides.css.map */
