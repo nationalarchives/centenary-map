@@ -24,9 +24,6 @@
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/tna/css/ie9.css">
     <link rel="stylesheet" type="text/css" href="styles/ie9-map.css">
     <![endif]-->
-    <!--[if IE 10]>
-    <link rel="stylesheet" type="text/css" href="styles/ie10-map.css">
-    <![endif]-->
 
     <!-- Header Scripts -->
     <script src="http://www.nationalarchives.gov.uk/wp-content/themes/tna/scripts/modernizr.min.js"></script>
