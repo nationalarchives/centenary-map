@@ -34,6 +34,7 @@
 
 .map-container svg {
   width: 100%;
+  position: absolute;
 }
 
 .tab-container {

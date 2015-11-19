@@ -29,7 +29,7 @@
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                  y="0px"
                  viewBox="<?php getCoordinates($country); ?>" xml:space="preserve" width="100%" height="100%"
-                 preserveAspectRatio="xMidYMin slice" style="position: absolute;">
+                 preserveAspectRatio="xMidYMin slice">
                 <style>
                     .st4 {
                         stroke-width: 0.15 !important;
@@ -55,6 +55,7 @@
                 </ul>
             </div>
             <div class="col starts-at-full ends-at-two-thirds">
+                <p class="float-right caption"><a href="">Glossary</a></p>
                 <div class="tabs" role="tabpanel" aria-labelledby="panel-1">
                     <h2>Overview</h2>
                     <img src="http://www.nationalarchives.gov.uk/wp-content/uploads/2014/06/CAB-24-144-127.jpg" alt="">
@@ -156,7 +157,6 @@
 <a id="goTop"></a>
 <?php include 'includes/footer.php'; ?>
 <script>
-    var country = '';
     var country = "Germany";
 </script>
 <?php include 'includes/footer-scripts.php'; ?>

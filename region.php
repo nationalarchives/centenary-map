@@ -18,7 +18,7 @@
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                  y="0px"
                  viewBox="170 70 300 333.15" xml:space="preserve" width="100%" height="100%"
-                 preserveAspectRatio="xMidYMin slice" style="position: absolute;">
+                 preserveAspectRatio="xMidYMin slice">
             <?php include 'includes/1914-map-mono.php'; ?>
         </div>
     </div>
@@ -63,6 +63,9 @@
 </main>
 <a id="goTop"></a>
 <?php include 'includes/footer.php'; ?>
+<script>
+    var country = '';
+</script>
 <?php include 'includes/footer-scripts.php'; ?>
 </body>
 </html>
