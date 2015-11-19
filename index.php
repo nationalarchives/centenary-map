@@ -11,7 +11,7 @@
             </div>
             <h1>First World War: A global view</h1>
         </div>
-        <div class="map-container">
+        <div class="map-container pad-none">
             <ul class="utilities">
                 <li><a href="#countries" id="countries-link">Regions</a></li>
                 <li><a href="#about" id="about-link">About this map</a></li>

@@ -11,7 +11,7 @@
             </div>
             <h1>Europe in 1914</h1>
         </div>
-        <div class="map-container" style="padding-bottom: 32%; position relative;">
+        <div class="map-container">
             <ul class="utilities">
                 <li><a href="#countries" id="countries-link">Countries/territories</a></li>
             </ul>

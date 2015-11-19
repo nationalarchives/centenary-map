@@ -25,7 +25,7 @@
             ?>
             <h1><?php echo($country) ?> in 1914</h1>
         </div>
-        <div class="map-container" style="padding-bottom: 32%; position relative;">
+        <div class="map-container">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                  y="0px"
                  viewBox="<?php getCoordinates($country); ?>" xml:space="preserve" width="100%" height="100%"
