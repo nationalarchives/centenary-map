@@ -11,7 +11,7 @@
             </div>
             <h1>First World War: A global view</h1>
         </div>
-        <div class="map-container pad-none">
+        <div class="map-container">
             <ul class="utilities">
                 <li><a href="#countries" id="countries-link">Regions</a></li>
                 <li><a href="#about" id="about-link">About this map</a></li>
@@ -120,9 +120,6 @@
 </main>
 <a id="goTop"></a>
 <?php include 'includes/footer.php'; ?>
-<script>
-    var country = '';
-</script>
 <?php include 'includes/footer-scripts.php'; ?>
 </body>
 </html>

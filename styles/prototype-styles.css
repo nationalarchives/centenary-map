@@ -78,6 +78,7 @@ ul.buttons {
   left: 10px;
   list-style-type: none;
   display: none;
+  z-index: 2000;
 }
 @media only screen and (min-width: 768px) {
   ul.buttons {

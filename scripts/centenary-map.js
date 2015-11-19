@@ -49,11 +49,15 @@ $("#about-link").click(function (e) {
 });
 
 // Set the on-state of the country
+var country = $('main').data('country');
 
-if (country !== '') {
-    if ($('#' + country + '').attr('xlink:title') == country) {
-        $('#' + country + '').attr('id', 'selected');
+$('.country').each(
+    function () {
+        $this = $(this);
+        var title = $this.attr('xlink:title');
+        if (title == country) {
+            $this.attr('id', 'selected');
+        }
     }
-    ;
-}
-;
+);
+

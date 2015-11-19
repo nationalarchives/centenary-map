@@ -7,7 +7,7 @@ $country = "Germany";
 <?php include 'includes/head.php'; ?>
 <body>
 <?php include 'includes/header.php'; ?>
-<main role="main">
+<main role="main" data-country="<?php echo $country ?>">
     <div class="navigation-container">
         <div class="heading-container">
             <div class="logo-holder">
@@ -147,9 +147,6 @@ $country = "Germany";
 </main>
 <a id="goTop"></a>
 <?php include 'includes/footer.php'; ?>
-<script>
-    var country = "Germany";
-</script>
 <?php include 'includes/footer-scripts.php'; ?>
 <script>
     $("ul[role='tablist'] li").tabify();
