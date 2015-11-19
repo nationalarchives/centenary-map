@@ -1,3 +1,7 @@
+<?php
+include 'includes/map-functions.php';
+$country = "Europe";
+?>
 <!DOCTYPE html>
 <html lang="en-gb">
 <?php include 'includes/head.php'; ?>
@@ -9,7 +13,7 @@
             <div class="logo-holder">
                 <img src="images/100-logo.png" alt="First World War 100">
             </div>
-            <h1>Europe in 1914</h1>
+            <h1><?php echo($country) ?> in 1914</h1>
         </div>
         <div class="map-container">
             <ul class="utilities">
@@ -17,7 +21,7 @@
             </ul>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                  y="0px"
-                 viewBox="170 70 300 333.15" xml:space="preserve" width="100%" height="100%"
+                 viewBox="<?php getCoordinates($country); ?>" xml:space="preserve" width="100%" height="100%"
                  preserveAspectRatio="xMidYMin slice">
             <?php include 'includes/1914-map-mono.php'; ?>
         </div>
@@ -64,7 +68,7 @@
 <a id="goTop"></a>
 <?php include 'includes/footer.php'; ?>
 <script>
-    var country = '';
+    var country = 'Europe';
 </script>
 <?php include 'includes/footer-scripts.php'; ?>
 </body>

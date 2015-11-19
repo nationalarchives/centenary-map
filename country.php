@@ -1,3 +1,7 @@
+<?php
+include 'includes/map-functions.php';
+$country = "Germany";
+?>
 <!DOCTYPE html>
 <html lang="en-gb">
 <?php include 'includes/head.php'; ?>
@@ -9,20 +13,6 @@
             <div class="logo-holder">
                 <img src="images/100-logo.png" alt="First World War 100">
             </div>
-            <?php
-            $country = "Germany";
-            function getCoordinates($country)
-            {
-                switch ($country) {
-                    case "Germany":
-                        echo "230 105 120 333.15";
-                        break;
-                    default:
-                        echo "170 70 300 333.15";
-                }
-            }
-
-            ?>
             <h1><?php echo($country) ?> in 1914</h1>
         </div>
         <div class="map-container">
@@ -56,6 +46,7 @@
             </div>
             <div class="col starts-at-full ends-at-two-thirds">
                 <p class="float-right caption"><a href="">Glossary</a></p>
+
                 <div class="tabs" role="tabpanel" aria-labelledby="panel-1">
                     <h2>Overview</h2>
                     <img src="http://www.nationalarchives.gov.uk/wp-content/uploads/2014/06/CAB-24-144-127.jpg" alt="">
