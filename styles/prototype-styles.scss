@@ -195,16 +195,11 @@ a#selected polygon {
 }
 
 .tooltip {
-  background: #045f78;
-  padding: 30px 20px;
-  font-size: 1.4em;
-  color: #fff;
-  text-align: center;
-  position: relative;
-  width: 100%;
+  display: none;
 
   @media only screen and (min-width: 768px) {
     background: rgba(0, 0, 0, 0.6);
+    display: block;
     padding: 60px 40px;
     font-size: 2em;
     -webkit-border-radius: 8px;
