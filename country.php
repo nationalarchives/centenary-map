@@ -12,27 +12,22 @@ $country = "Germany";
         <div class="heading-container">
             <div class="logo-holder">
                 <img src="images/100-logo.png" alt="First World War 100">
-            </div>
+            </div><!-- end logo-holder -->
             <h1><?php echo($country) ?> in 1914</h1>
-        </div>
+        </div><!-- end heading-container -->
         <div class="map-container">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                  y="0px"
                  viewBox="<?php getCoordinates($country); ?>" xml:space="preserve" width="100%" height="100%"
-                 preserveAspectRatio="xMidYMin slice">
-                <style>
-                    .st4 {
-                        stroke-width: 0.15 !important;
-                    }
-                </style>
+                 preserveAspectRatio="xMidYMin slice" id="country-view">
                 <?php include 'includes/1914-map-mono.php'; ?>
-        </div>
-    </div>
+        </div><!-- end map-container -->
+    </div><!-- end navigation-container -->
     <div class="row box">
         <div class="container center">
             <?php include 'includes/breadcrumb.php'; ?>
-        </div>
-    </div>
+        </div><!-- end container center -->
+    </div><!-- end row box -->
     <div class="row">
         <div class="container center margin-top-large">
             <div class="col starts-at-full ends-at-one-third full-override">
@@ -43,7 +38,7 @@ $country = "Germany";
                     <li id="panel-4" role="tab"><a href="">Home Front</a></li>
                     <li id="panel-5" role="tab"><a href="">Armistice and Aftermath</a></li>
                 </ul>
-            </div>
+            </div><!-- end col -->
             <div class="col starts-at-full ends-at-two-thirds">
                 <p class="float-right caption"><a href="">Glossary</a></p>
 
@@ -63,7 +58,7 @@ $country = "Germany";
                         western front soon became a stalemate. The allied blockade of German ports began to result in
                         shortages of food. The arrival of American troops in 1917 compounded Germany’s difficulties.
                     </p>
-                </div>
+                </div><!-- end tabs -->
                 <div class="tabs" role="tabpanel" aria-labelledby="panel-2">
                     <h2>Prelude to war</h2>
 

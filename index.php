@@ -8,9 +8,9 @@
         <div class="heading-container">
             <div class="logo-holder">
                 <img src="images/100-logo.png" alt="First World War 100">
-            </div>
+            </div><!-- end logo-holder -->
             <h1>First World War: A global view</h1>
-        </div>
+        </div><!-- end heading-container -->
         <div class="map-container">
             <ul class="utilities">
                 <li><a href="#countries" id="countries-link">Regions</a></li>
@@ -20,13 +20,13 @@
                 <li><a href="" title="tooltip">Show 1914 empires</a></li>
             </ul>
             <?php include 'includes/continent-map.php'; ?>
-        </div>
-    </div>
+        </div><!-- end map-container -->
+    </div><!-- end navigation-container -->
     <div class="container">
         <div class="center breather">
             <div class="width-full"><a id="countries"></a>
-
-                <h2 class="icon">Regions</h2></div>
+                <h2 class="icon">Regions</h2>
+            </div><!-- end width-full -->
             <div class="index row">
                 <div class="col starts-at-full ends-at-one-third">
                     <h3 class="icon"><a href="region.php">Europe</a></h3>
@@ -36,7 +36,7 @@
                         <li><a href="">Belgium</a></li>
                     </ul>
                     <p class="caption"><a href="">Show all &#x25B8;</a></p>
-                </div>
+                </div><!-- end col -->
                 <div class="col starts-at-full ends-at-one-third">
                     <h3 class="icon"><a href="">Asia</a></h3>
                     <ul class="no-bullet margin-none">
@@ -45,7 +45,7 @@
                         <li><a href="">India</a></li>
                     </ul>
                     <p class="caption"><a href="">Show all &#x25B8;</a></p>
-                </div>
+                </div><!-- end col -->
                 <div class="col starts-at-full ends-at-one-third">
                     <h3 class="icon"><a href="">Australasia</a></h3>
                     <ul class="no-bullet margin-none">
@@ -54,8 +54,8 @@
                         <li><a href="">New Zealand</a></li>
                     </ul>
                     <p class="caption"><a href="">Show all &#x25B8;</a></p>
-                </div>
-            </div>
+                </div><!-- end col -->
+            </div><!-- end index row -->
             <div class="index row">
                 <div class="col starts-at-full ends-at-one-third">
                     <h3 class="icon"><a href="">Africa</a></h3>
@@ -65,7 +65,7 @@
                         <li><a href="">British Gold Coast</a></li>
                     </ul>
                     <p class="caption"><a href="">Show all &#x25B8;</a></p>
-                </div>
+                </div><!-- end col -->
                 <div class="col starts-at-full ends-at-one-third">
                     <h3 class="icon"><a href="">Middle East</a></h3>
                     <ul class="no-bullet margin-none">
@@ -74,7 +74,7 @@
                         <li><a href="">Old country name</a></li>
                     </ul>
                     <p class="caption"><a href="">Show all &#x25B8;</a></p>
-                </div>
+                </div><!-- end col -->
                 <div class="col starts-at-full ends-at-one-third">
                     <h3 class="icon"><a href="">Americas</a></h3>
                     <ul class="no-bullet margin-none">
@@ -83,10 +83,10 @@
                         <li><a href="">Canada</a></li>
                     </ul>
                     <p class="caption"><a href="">Show all &#x25B8;</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
+                </div><!-- end col -->
+            </div><!-- end index row -->
+        </div><!-- end col -->
+    </div><!-- end col -->
     <div class="row box">
         <div class="center breather">
             <div class="width-full"><a id="about"></a>

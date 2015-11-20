@@ -12,9 +12,9 @@ $country = "Europe";
         <div class="heading-container">
             <div class="logo-holder">
                 <img src="images/100-logo.png" alt="First World War 100">
-            </div>
+            </div><!-- end logo-holder -->
             <h1><?php echo($country) ?> in 1914</h1>
-        </div>
+        </div><!-- end heading-container -->
         <div class="map-container">
             <ul class="utilities">
                 <li><a href="#countries" id="countries-link">Countries/territories</a></li>
@@ -24,20 +24,20 @@ $country = "Europe";
                  viewBox="<?php getCoordinates($country); ?>" xml:space="preserve" width="100%" height="100%"
                  preserveAspectRatio="xMidYMin slice">
             <?php include 'includes/1914-map-mono.php'; ?>
-        </div>
-    </div>
+        </div><!-- end map-container -->
+    </div><!-- end navigation-container -->
     <div class="row box">
         <div class="container center">
             <?php include 'includes/breadcrumb.php'; ?>
-        </div>
-    </div>
+        </div><!-- end container center -->
+    </div><!-- end row -->
     <div class="container">
         <div class="center breather">
             <div class="row">
                 <div class="col starts-at-full">
                     <div class="width-full"><a id="countries"></a>
-
-                        <h2 class="icon">European countries/territories</h2></div>
+                        <h2 class="icon">European countries/territories</h2>
+                    </div><!-- end width-full -->
                     <div id="desktop-keywords">
                         <ul class="no-bullet border-none keywords-selectable clr">
                             <li><a href="">Albania</a></li>
@@ -59,11 +59,11 @@ $country = "Europe";
                             <li><a href="">Sweden</a></li>
                             <li><a href="">Switzerland</a></li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    </div><!-- end desktop-keywords -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end center breather -->
+    </div><!-- end container -->
 </main>
 <a id="goTop"></a>
 <?php include 'includes/footer.php'; ?>
