@@ -16,4 +16,5 @@
         src='http://www.nationalarchives.gov.uk/wp-content/themes/tna/js/skip-link-focus-fix.js?ver=20130115'></script>
 <script src="http://www.nationalarchives.gov.uk/wp-content/themes/tna/scripts/tabify.js"></script>
 <script src="http://www.nationalarchives.gov.uk/wp-content/themes/tna/scripts/jQuery.equalHeights.js"></script>
+<script src="scripts/tooltipsy.min.js"></script>
 <script src="scripts/centenary-map.js"></script>
