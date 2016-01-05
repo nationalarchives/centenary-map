@@ -16,10 +16,28 @@
                 <li><a href="#countries" id="countries-link">Regions</a></li>
                 <li><a href="#about" id="about-link">About this map</a></li>
             </ul>
-            <ul class="buttons">
-                <li><a href="" title="tooltip">Show 1914 empires</a></li>
-            </ul>
-            <?php include 'includes/continent-map.php'; ?>
+
+            <?php
+
+            // Retrieve the map value from the GET array
+            $map = $_GET['map'];
+
+            // If the value is empires, show the empire view...
+            if($map === "empires") { ?>
+                <ul class="buttons">
+                    <li><a href="/fww-map" title="tooltip">Show continent view</a></li>
+                </ul>
+            <?php }
+
+            // or else, show the continent view...
+            else { ?>
+                <ul class="buttons">
+                    <li><a href="/fww-map?map=empires" title="tooltip">Show 1914 empires</a></li>
+                </ul>
+                <?php include 'includes/continent-map.php'; ?>
+
+            <?php } ?>
+            
         </div><!-- end map-container -->
     </div><!-- end navigation-container -->
     <div class="container">
